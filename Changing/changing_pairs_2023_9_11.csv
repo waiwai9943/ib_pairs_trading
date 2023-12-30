@@ -1,0 +1,4 @@
+,first_stock,second_stock,from_date,from_signal,To_date,To_signal,Hedge Ratio
+0,GEHC,UHS,2023-9-7,0.0,2023-9-8,-1.0,-1.8668932070285162
+1,KR,NWL,2023-9-7,0.0,2023-9-8,1.0,-0.21365215952909766
+2,AZO,CMG,2023-9-7,0.0,2023-9-8,1.0,-0.7620528128825571

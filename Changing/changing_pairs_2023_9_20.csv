@@ -1,0 +1,4 @@
+,first_stock,second_stock,from_date,from_signal,To_date,To_signal,Hedge Ratio
+0,WST,ZBH,2023-9-19,-1.0,2023-9-20,0.0,-0.30538632099501467
+1,MSCI,TRV,2023-9-19,-1.0,2023-9-20,0.0,-0.3058524515364503
+2,ESS,IRM,2023-9-19,1.0,2023-9-20,0.0,-0.27205352928632115
