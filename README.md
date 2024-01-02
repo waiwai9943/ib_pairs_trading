@@ -31,9 +31,6 @@ Please note that you will need an active Interactive Broker account with API acc
 ## Contributing
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License.
-
 ## Acknowledgments
 We would like to acknowledge the following resources and libraries that have been instrumental in the development of this project:
 
