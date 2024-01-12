@@ -78,7 +78,7 @@ def find_cointegrated_pairs(data):
               #pairs.append((keys[i], keys[j],pvalue))
               #print(keys[i], keys[j],pvalue)
               if pvalue < 0.05:
-                pairs.append((keys[i], keys[j],pvalue))
+                pairs.append((keys[ i], keys[j],pvalue))
                 if is_same_sector(keys[i],keys[j]):
                   print('{s1} and {s2} are same sector'.format(s1 = keys[i], s2 = keys[j]))
                   pairs.append((keys[i], keys[j],pvalue))
@@ -89,10 +89,12 @@ def find_cointegrated_pairs(data):
     return score_matrix, pvalue_matrix, pairs
 
 def get_US_allstock (lookback, save_data = True ):
+    print('getting all s&p stocks....')
+    yf.pdr_override()
     tickers = si.tickers_sp500()
     start = dt.datetime.now()- dt.timedelta(days=lookback)
     end = dt.datetime.now()
-    df = pdr.get_data_yahoo(tickers, start, end)['Close']
+    df = pdr.get_data_yahoo(tickers, start, end)['Adj Close']
     if save_data:
       df.to_csv('raw_data_us.csv')
     return df
@@ -208,9 +210,10 @@ def smooth_zscore(spread,lookback_window):
 
 
 if __name__ == '__main__':
-  backtest_day = 270
+  backtest_day = 365
   market = 'US'
   #market = 'HK'
   #df = get_HK_allstock(lookback=backtest_day)
   df = get_US_allstock(lookback=backtest_day)
-  score_matrix, pvalue_matrix, pairs = find_cointegrated_pairs(df)
+  print(df)
+  #score_matrix, pvalue_matrix, pairs = find_cointegrated_pairs(df)

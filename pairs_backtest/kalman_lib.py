@@ -106,7 +106,7 @@ def KalmanFilterRegression(x,y):
 
 #--------------------------------------------------------------------------------------
 
-def backtest(x, y ):
+def backtest(x, y, stop_loss = False):
     date = dt.datetime.now()
     date ='%s_%s_%s'%(date.year,date.month,date.day)
 
@@ -144,10 +144,17 @@ def backtest(x, y ):
 
     entryZscore = 1.5
     exitZscore = -0.2
+    exitZscore_stop_loss = 2
 
     # Set up num units long
     df1['long entry'] = ((df1.zScore < - entryZscore) & ( df1.zScore.shift(1) > - entryZscore))
-    df1['long exit'] = ((df1.zScore > - exitZscore) & (df1.zScore.shift(1) < - exitZscore))
+
+    if stop_loss:
+        df1['long exit'] = (((df1.zScore > - exitZscore) & (df1.zScore.shift(1) < - exitZscore)) | ((df1.zScore < - exitZscore_stop_loss) & (df1.zScore.shift(1) > - exitZscore_stop_loss)))
+    else:
+        df1['long exit'] = ((df1.zScore > - exitZscore) & (df1.zScore.shift(1) < - exitZscore))
+
+
     df1['num units long'] = np.nan
     df1.loc[df1['long entry'],'num units long'] = 1
     df1.loc[df1['long exit'],'num units long'] = 0
@@ -157,7 +164,12 @@ def backtest(x, y ):
 
     # Set up num units short
     df1['short entry'] = ((df1.zScore >  entryZscore) & ( df1.zScore.shift(1) < entryZscore))
-    df1['short exit'] = ((df1.zScore < exitZscore) & (df1.zScore.shift(1) > exitZscore))
+
+    if stop_loss:
+        df1['short exit'] = (((df1.zScore < exitZscore) & (df1.zScore.shift(1) > exitZscore)) | ((df1.zScore >  exitZscore_stop_loss) & (df1.zScore.shift(1) <  exitZscore_stop_loss)))
+    else:
+        df1['short exit'] = ((df1.zScore < exitZscore) & (df1.zScore.shift(1) > exitZscore)) 
+
     df1.loc[df1['short entry'],'num units short'] = -1
     df1.loc[df1['short exit'],'num units short'] = 0
 
@@ -228,5 +240,5 @@ def py_plot(df1,date,first_instrument,second_instrument):
     plt.tight_layout()
     #plt.show()
     plt.savefig(path+'/%s vs %s_%s.jpeg'%(first_instrument,second_instrument,date))
-    #plt.close('all')
+    plt.close('all')
     return ax1,ax2,ax3
