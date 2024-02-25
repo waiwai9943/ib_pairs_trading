@@ -142,8 +142,8 @@ def backtest(x, y, stop_loss = False):
 
     ##############################################################
 
-    entryZscore = 1.5
-    exitZscore = -0.2
+    entryZscore = 1.5 #1.5
+    exitZscore = -0.2 #-0.2
     exitZscore_stop_loss = 2
 
     # Set up num units long
@@ -208,7 +208,7 @@ def backtest(x, y, stop_loss = False):
 
 
 
-def py_plot(df1,date,first_instrument,second_instrument):
+def py_plot(df1,date,first_instrument,second_instrument, is_close = True):
     if not os.path.exists('py_plot'):
         os.makedirs('py_plot')
 
@@ -240,5 +240,6 @@ def py_plot(df1,date,first_instrument,second_instrument):
     plt.tight_layout()
     #plt.show()
     plt.savefig(path+'/%s vs %s_%s.jpeg'%(first_instrument,second_instrument,date))
-    plt.close('all')
+    if is_close:
+        plt.close('all')
     return ax1,ax2,ax3

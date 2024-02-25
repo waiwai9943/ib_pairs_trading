@@ -88,7 +88,7 @@ def find_cointegrated_pairs(data):
     print('Returning:',pairs)
     return score_matrix, pvalue_matrix, pairs
 
-def get_US_allstock (lookback, save_data = True ):
+def get_US_SNP (lookback, save_data = True ):
     print('getting all s&p stocks....')
     yf.pdr_override()
     tickers = si.tickers_sp500()
@@ -96,7 +96,18 @@ def get_US_allstock (lookback, save_data = True ):
     end = dt.datetime.now()
     df = pdr.get_data_yahoo(tickers, start, end)['Adj Close']
     if save_data:
-      df.to_csv('raw_data_us.csv')
+      df.to_csv('US_SNP.csv')
+    return df
+
+def get_US_NAS (lookback, save_data = True ):
+    print('getting all nasdaq stocks....')
+    yf.pdr_override()
+    tickers = si.tickers_nasdaq()
+    start = dt.datetime.now()- dt.timedelta(days=lookback)
+    end = dt.datetime.now()
+    df = pdr.get_data_yahoo(tickers, start, end)['Adj Close']
+    if save_data:
+      df.to_csv('US_NAS.csv')
     return df
 
 def get_HK_allstock (lookback,save_data):
