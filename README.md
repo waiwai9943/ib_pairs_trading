@@ -20,7 +20,7 @@ The project provides the following functionality:
 ## Getting Started
 To use this project, follow these steps:
 
-1. Clone the repository: git clone [https://github.com/your-username/your-repo.git](https://github.com/waiwai9943/ib_pairs_trading.git
+1. Clone the repository: git clone https://github.com/waiwai9943/ib_pairs_trading.git
 2. Install the required dependencies: pip install -r requirements.txt
 3. Customize the strategy parameters, such as total capital and stop-loss levels, in the IB_pairs_trading_2.ipynb.py file.
 4. Run the main script: IB_pairs_trading_2.ipynb.py
