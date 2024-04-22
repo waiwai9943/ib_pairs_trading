@@ -1,0 +1,47 @@
+2024-04-03 11:26:08,346 Logging:
+2024-04-03 11:26:08,348 
+Long ADSK: 24; Short ORLY: 6 * 4
+2024-04-03 11:26:08,611 Logging:
+2024-04-03 11:26:08,611 
+Holdin pairs stored in local drive:('ADSK', 'ORLY'). 
+ All holding in IB: []
+2024-04-03 11:26:11,615 Warning 399, reqId 6: Order Message: SELL 6 ORLY NASDAQ.NMS Your order will not be placed at the exchange until 2024-04-03 09:30:00 US/Eastern. If you want the order to be active in the Pre-Market, Regular and After-Market sessions, a Limit type order is required and you must add the attribute "Fill/Trigger Outside RTH." Click  <a href="https://www.ibkrguides.com/kb/article-576.htm?cid=d6326009-23da-46a1-8f9b-9b3f9f9087ca"> here </a> for more information regarding stocks Outside of the Regular Trading Hours sessions.
+2024-04-03 11:26:11,620 orderStatus: Trade(contract=Stock(conId=82457808, symbol='ORLY', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='ORLY', tradingClass='NMS'), order=MarketOrder(orderId=6, clientId=9, permId=15516774, action='SELL', totalQuantity=6.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=6, status='PreSubmitted', filled=0.0, remaining=6.0, avgFillPrice=0.0, permId=15516774, parentId=0, lastFillPrice=0.0, clientId=9, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 8, 336593, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 11, 616635, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2024-04-03 11:26:11,663 placeOrder: New order Trade(contract=Stock(conId=196986496, symbol='MNST', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='MNST', tradingClass='NMS'), order=MarketOrder(orderId=8, clientId=9, action='BUY', totalQuantity=112), orderStatus=OrderStatus(orderId=8, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 11, 663241, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-04-03 11:26:11,711 Warning 399, reqId 8: Order Message: BUY 112 MNST NASDAQ.NMS Your order will not be placed at the exchange until 2024-04-03 09:30:00 US/Eastern. If you want the order to be active in the Pre-Market, Regular and After-Market sessions, a Limit type order is required and you must add the attribute "Fill/Trigger Outside RTH." Click  <a href="https://www.ibkrguides.com/kb/article-576.htm?cid=d6326009-23da-46a1-8f9b-9b3f9f9087ca"> here </a> for more information regarding stocks Outside of the Regular Trading Hours sessions.
+2024-04-03 11:26:11,715 orderStatus: Trade(contract=Stock(conId=196986496, symbol='MNST', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='MNST', tradingClass='NMS'), order=MarketOrder(orderId=8, clientId=9, permId=15516775, action='BUY', totalQuantity=112.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=8, status='PreSubmitted', filled=0.0, remaining=112.0, avgFillPrice=0.0, permId=15516775, parentId=0, lastFillPrice=0.0, clientId=9, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 11, 663241, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 11, 712581, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2024-04-03 11:26:11,805 placeOrder: New order Trade(contract=Stock(conId=69293559, symbol='VRSK', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='VRSK', tradingClass='NMS'), order=MarketOrder(orderId=10, clientId=9, action='SELL', totalQuantity=28), orderStatus=OrderStatus(orderId=10, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 11, 801061, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-04-03 11:26:11,808 Logging:
+2024-04-03 11:26:11,808 
+Long MNST: 112; Short VRSK: 28 * 4
+2024-04-03 11:26:11,895 Logging:
+2024-04-03 11:26:11,896 
+Holdin pairs stored in local drive:('MNST', 'VRSK'). 
+ All holding in IB: []
+2024-04-03 11:26:11,896 Logging:
+2024-04-03 11:26:11,896 
+Holdin pairs stored in local drive:('ADSK', 'ORLY'). 
+ All holding in IB: []
+2024-04-03 11:26:14,141 Warning 399, reqId 10: Order Message: SELL 28 VRSK NASDAQ.NMS Your order will not be placed at the exchange until 2024-04-03 09:30:00 US/Eastern. If you want the order to be active in the Pre-Market, Regular and After-Market sessions, a Limit type order is required and you must add the attribute "Fill/Trigger Outside RTH." Click  <a href="https://www.ibkrguides.com/kb/article-576.htm?cid=d6326009-23da-46a1-8f9b-9b3f9f9087ca"> here </a> for more information regarding stocks Outside of the Regular Trading Hours sessions.
+2024-04-03 11:26:14,144 orderStatus: Trade(contract=Stock(conId=69293559, symbol='VRSK', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='VRSK', tradingClass='NMS'), order=MarketOrder(orderId=10, clientId=9, permId=15516776, action='SELL', totalQuantity=28.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=10, status='PreSubmitted', filled=0.0, remaining=28.0, avgFillPrice=0.0, permId=15516776, parentId=0, lastFillPrice=0.0, clientId=9, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 11, 801061, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 14, 141559, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2024-04-03 11:26:14,195 placeOrder: New order Trade(contract=Stock(conId=459530964, symbol='ABNB', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='ABNB', tradingClass='NMS'), order=MarketOrder(orderId=12, clientId=9, action='BUY', totalQuantity=46), orderStatus=OrderStatus(orderId=12, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 14, 194782, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-04-03 11:26:14,231 Warning 399, reqId 12: Order Message: BUY 46 ABNB NASDAQ.NMS Your order will not be placed at the exchange until 2024-04-03 09:30:00 US/Eastern. If you want the order to be active in the Pre-Market, Regular and After-Market sessions, a Limit type order is required and you must add the attribute "Fill/Trigger Outside RTH." Click  <a href="https://www.ibkrguides.com/kb/article-576.htm?cid=d6326009-23da-46a1-8f9b-9b3f9f9087ca"> here </a> for more information regarding stocks Outside of the Regular Trading Hours sessions.
+2024-04-03 11:26:14,238 orderStatus: Trade(contract=Stock(conId=459530964, symbol='ABNB', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='ABNB', tradingClass='NMS'), order=MarketOrder(orderId=12, clientId=9, permId=15516777, action='BUY', totalQuantity=46.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=12, status='PreSubmitted', filled=0.0, remaining=46.0, avgFillPrice=0.0, permId=15516777, parentId=0, lastFillPrice=0.0, clientId=9, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 14, 194782, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 14, 233765, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2024-04-03 11:26:14,332 placeOrder: New order Trade(contract=Stock(conId=130432552, symbol='CDW', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='CDW', tradingClass='NMS'), order=MarketOrder(orderId=14, clientId=9, action='SELL', totalQuantity=23), orderStatus=OrderStatus(orderId=14, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 3, 3, 26, 14, 331220, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-04-03 11:26:14,334 Logging:
+2024-04-03 11:26:14,334 
+Long ABNB: 46; Short CDW: 23 * 2
+2024-04-03 11:26:14,447 Logging:
+2024-04-03 11:26:14,447 
+Holdin pairs stored in local drive:('ABNB', 'CDW'). 
+ All holding in IB: []
+2024-04-03 11:26:14,447 Logging:
+2024-04-03 11:26:14,448 
+Holdin pairs stored in local drive:('ADSK', 'ORLY'). 
+ All holding in IB: []
+2024-04-03 11:26:14,457 Logging:
+2024-04-03 11:26:14,457 
+Holdin pairs stored in local drive:('MNST', 'VRSK'). 
+ All holding in IB: []
+2024-04-03 11:26:14,459 Disconnecting from 127.0.0.1:4001, 1.63 kB sent in 20 messages, 56.8 kB received in 885 messages, session time 2.01 ks.
+2024-04-03 11:26:14,460 Disconnecting

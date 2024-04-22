@@ -143,7 +143,7 @@ def backtest(x, y, stop_loss = False):
     ##############################################################
 
     entryZscore = 1.5 #1.5
-    exitZscore = -0.2 #-0.2
+    exitZscore = -0 #-0.2
     exitZscore_stop_loss = 2
 
     # Set up num units long
@@ -208,11 +208,9 @@ def backtest(x, y, stop_loss = False):
 
 
 
-def py_plot(df1,date,first_instrument,second_instrument, is_close = True):
-    if not os.path.exists('py_plot'):
-        os.makedirs('py_plot')
-
-    path = 'py_plot'
+def py_plot(df1,date,first_instrument,second_instrument,path = 'py_plot', is_close = True):
+    if not os.path.exists(path):
+        os.makedirs(path)
 
     fig, (ax1, ax2, ax3) = plt.subplots(nrows = 3, figsize=(14,20))
     df1['X_sell_price'] = df1[df1['numUnits']==1]['x']

@@ -1,0 +1,43 @@
+2024-04-20 00:24:15,474 Logging:
+2024-04-20 00:24:15,474 
+Holdin pairs stored in local drive:('ABNB', 'CDW'). 
+ All holding in IB: ['ABNB', 'VRSK', 'ADSK', 'ORLY', 'CDW', 'MNST']
+2024-04-20 00:24:22,357 placeOrder: New order Trade(contract=Stock(conId=459530964, symbol='ABNB', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='ABNB', tradingClass='NMS'), order=MarketOrder(orderId=4, clientId=8, action='SELL', totalQuantity=46.0), orderStatus=OrderStatus(orderId=4, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 19, 16, 24, 22, 356668, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-04-20 00:24:22,603 placeOrder: New order Trade(contract=Stock(conId=130432552, symbol='CDW', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='CDW', tradingClass='NMS'), order=MarketOrder(orderId=6, clientId=8, action='BUY', totalQuantity=23.0), orderStatus=OrderStatus(orderId=6, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 4, 19, 16, 24, 22, 602228, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-04-20 00:24:22,662 Logging:
+2024-04-20 00:24:22,676 
+                              y           x        hr  zScore  numUnits
+Date                                                                   
+2024-04-15 00:00:00  241.380005  155.600006 -1.540149   0.540       0.0
+2024-04-16 00:00:00  240.009995  156.660004 -1.538847   0.023       0.0
+2024-04-17 00:00:00  236.779999  158.369995 -1.534327  -0.918       0.0
+2024-04-18 00:00:00  235.699997  160.100006 -1.527942  -1.369       0.0
+2024-04-19 00:00:00  235.184998  156.619995 -1.524654  -0.398       0.0
+2024-04-20 00:24:22,676 Logging:
+2024-04-20 00:24:22,677 
+Holdin pairs stored in local drive:('ADSK', 'ORLY'). 
+ All holding in IB: ['ABNB', 'VRSK', 'ADSK', 'ORLY', 'CDW', 'MNST']
+2024-04-20 00:24:25,900 Logging:
+2024-04-20 00:24:25,905 
+                               y           x        hr  zScore  numUnits
+Date                                                                    
+2024-04-15 00:00:00  1069.270020  229.619995 -4.438634   1.045       0.0
+2024-04-16 00:00:00  1089.510010  228.240005 -4.466419   2.010      -1.0
+2024-04-17 00:00:00  1094.800049  214.919998 -4.516921   3.699      -1.0
+2024-04-18 00:00:00  1101.060059  210.630005 -4.574369   3.338      -1.0
+2024-04-19 00:00:00  1082.089966  214.580002 -4.613558   1.684      -1.0
+2024-04-20 00:24:25,905 Logging:
+2024-04-20 00:24:25,906 
+Holdin pairs stored in local drive:('MNST', 'VRSK'). 
+ All holding in IB: ['ABNB', 'VRSK', 'ADSK', 'ORLY', 'CDW', 'MNST']
+2024-04-20 00:24:28,844 Logging:
+2024-04-20 00:24:28,854 
+                              y          x        hr  zScore  numUnits
+Date                                                                  
+2024-04-15 00:00:00  222.179993  54.110001 -3.967876   1.152      -1.0
+2024-04-16 00:00:00  222.100006  54.689999 -3.969314   0.785      -1.0
+2024-04-17 00:00:00  222.250000  54.250000 -3.972270   0.998      -1.0
+2024-04-18 00:00:00  223.330002  53.459999 -3.980427   1.434      -1.0
+2024-04-19 00:00:00  223.210007  52.834999 -3.992335   1.563      -1.0
+2024-04-20 00:24:28,854 Disconnecting from 127.0.0.1:4001, 623 B sent in 12 messages, 17.7 kB received in 325 messages, session time 13.8 s.
+2024-04-20 00:24:28,855 Disconnecting

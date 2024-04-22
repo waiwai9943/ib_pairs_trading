@@ -1,0 +1,83 @@
+2024-03-27 15:16:41,861 Logging:
+2024-03-27 15:16:41,861 
+Long GFS: 128; Short HON: 32 * 4
+2024-03-27 15:16:41,901 Logging:
+2024-03-27 15:16:41,901 
+Holdin pairs stored in local drive:('GFS', 'HON'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:41,901 Logging:
+2024-03-27 15:16:41,902 
+Holdin pairs stored in local drive:('GFS', 'HON'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:41,902 Logging:
+2024-03-27 15:16:41,902 
+Holdin pairs stored in local drive:('GFS', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:41,902 Logging:
+2024-03-27 15:16:41,902 
+Holdin pairs stored in local drive:('AMAT', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:42,958 Warning 399, reqId 6: Order Message: SELL 32 HON NASDAQ.NMS Your order will not be placed at the exchange until 2024-03-27 09:30:00 US/Eastern. If you want the order to be active in the Pre-Market, Regular and After-Market sessions, a Limit type order is required and you must add the attribute "Fill/Trigger Outside RTH." Click  <a href="https://www.ibkrguides.com/kb/article-576.htm?cid=d6326009-23da-46a1-8f9b-9b3f9f9087ca"> here </a> for more information regarding stocks Outside of the Regular Trading Hours sessions.
+2024-03-27 15:16:42,960 orderStatus: Trade(contract=Stock(conId=4350, symbol='HON', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='HON', tradingClass='NMS'), order=MarketOrder(orderId=6, clientId=7, permId=900973485, action='SELL', totalQuantity=32.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=6, status='PreSubmitted', filled=0.0, remaining=32.0, avgFillPrice=0.0, permId=900973485, parentId=0, lastFillPrice=0.0, clientId=7, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 41, 859485, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 42, 959106, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2024-03-27 15:16:42,970 placeOrder: New order Trade(contract=Stock(conId=523222624, symbol='GFS', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='GFS', tradingClass='NMS'), order=MarketOrder(orderId=8, clientId=7, action='BUY', totalQuantity=128), orderStatus=OrderStatus(orderId=8, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 42, 969114, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-03-27 15:16:42,987 Warning 399, reqId 8: Order Message: BUY 128 GFS NASDAQ.NMS Your order will not be placed at the exchange until 2024-03-27 09:30:00 US/Eastern. If you want the order to be active in the Pre-Market, Regular and After-Market sessions, a Limit type order is required and you must add the attribute "Fill/Trigger Outside RTH." Click  <a href="https://www.ibkrguides.com/kb/article-576.htm?cid=d6326009-23da-46a1-8f9b-9b3f9f9087ca"> here </a> for more information regarding stocks Outside of the Regular Trading Hours sessions.
+2024-03-27 15:16:42,990 orderStatus: Trade(contract=Stock(conId=523222624, symbol='GFS', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='GFS', tradingClass='NMS'), order=MarketOrder(orderId=8, clientId=7, permId=900973486, action='BUY', totalQuantity=128.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=8, status='PreSubmitted', filled=0.0, remaining=128.0, avgFillPrice=0.0, permId=900973486, parentId=0, lastFillPrice=0.0, clientId=7, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 42, 969114, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 42, 988129, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2024-03-27 15:16:43,106 placeOrder: New order Trade(contract=Stock(conId=275850, symbol='VRTX', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='VRTX', tradingClass='NMS'), order=MarketOrder(orderId=10, clientId=7, action='SELL', totalQuantity=16), orderStatus=OrderStatus(orderId=10, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 43, 106028, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-03-27 15:16:43,107 Logging:
+2024-03-27 15:16:43,108 
+Long GFS: 128; Short VRTX: 16 * 8
+2024-03-27 15:16:43,162 Logging:
+2024-03-27 15:16:43,162 
+Holdin pairs stored in local drive:('GFS', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:43,162 Logging:
+2024-03-27 15:16:43,162 
+Holdin pairs stored in local drive:('GFS', 'HON'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:43,163 Logging:
+2024-03-27 15:16:43,163 
+Holdin pairs stored in local drive:('GFS', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:43,163 Logging:
+2024-03-27 15:16:43,163 
+Holdin pairs stored in local drive:('AMAT', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:43,163 Logging:
+2024-03-27 15:16:43,164 
+Holdin pairs stored in local drive:('GFS', 'HON'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:44,212 Warning 399, reqId 10: Order Message: SELL 16 VRTX NASDAQ.NMS Your order will not be placed at the exchange until 2024-03-27 09:30:00 US/Eastern. If you want the order to be active in the Pre-Market, Regular and After-Market sessions, a Limit type order is required and you must add the attribute "Fill/Trigger Outside RTH." Click  <a href="https://www.ibkrguides.com/kb/article-576.htm?cid=d6326009-23da-46a1-8f9b-9b3f9f9087ca"> here </a> for more information regarding stocks Outside of the Regular Trading Hours sessions.
+2024-03-27 15:16:44,213 orderStatus: Trade(contract=Stock(conId=275850, symbol='VRTX', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='VRTX', tradingClass='NMS'), order=MarketOrder(orderId=10, clientId=7, permId=900973487, action='SELL', totalQuantity=16.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=10, status='PreSubmitted', filled=0.0, remaining=16.0, avgFillPrice=0.0, permId=900973487, parentId=0, lastFillPrice=0.0, clientId=7, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 43, 106028, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 44, 212104, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2024-03-27 15:16:44,254 placeOrder: New order Trade(contract=Stock(conId=266093, symbol='AMAT', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='AMAT', tradingClass='NMS'), order=MarketOrder(orderId=12, clientId=7, action='BUY', totalQuantity=32), orderStatus=OrderStatus(orderId=12, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 44, 253189, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-03-27 15:16:44,270 Warning 399, reqId 12: Order Message: BUY 32 AMAT NASDAQ.NMS Your order will not be placed at the exchange until 2024-03-27 09:30:00 US/Eastern. If you want the order to be active in the Pre-Market, Regular and After-Market sessions, a Limit type order is required and you must add the attribute "Fill/Trigger Outside RTH." Click  <a href="https://www.ibkrguides.com/kb/article-576.htm?cid=d6326009-23da-46a1-8f9b-9b3f9f9087ca"> here </a> for more information regarding stocks Outside of the Regular Trading Hours sessions.
+2024-03-27 15:16:44,272 orderStatus: Trade(contract=Stock(conId=266093, symbol='AMAT', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='AMAT', tradingClass='NMS'), order=MarketOrder(orderId=12, clientId=7, permId=900973488, action='BUY', totalQuantity=32.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=12, status='PreSubmitted', filled=0.0, remaining=32.0, avgFillPrice=0.0, permId=900973488, parentId=0, lastFillPrice=0.0, clientId=7, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 44, 253189, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 44, 271704, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2024-03-27 15:16:44,364 placeOrder: New order Trade(contract=Stock(conId=275850, symbol='VRTX', exchange='SMART', primaryExchange='NASDAQ', currency='USD', localSymbol='VRTX', tradingClass='NMS'), order=MarketOrder(orderId=14, clientId=7, action='SELL', totalQuantity=16), orderStatus=OrderStatus(orderId=14, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2024, 3, 27, 7, 16, 44, 363275, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2024-03-27 15:16:44,365 Logging:
+2024-03-27 15:16:44,365 
+Long AMAT: 32; Short VRTX: 16 * 2
+2024-03-27 15:16:44,394 Logging:
+2024-03-27 15:16:44,395 
+Holdin pairs stored in local drive:('AMAT', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:44,395 Logging:
+2024-03-27 15:16:44,395 
+Holdin pairs stored in local drive:('GFS', 'HON'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:44,396 Logging:
+2024-03-27 15:16:44,396 
+Holdin pairs stored in local drive:('GFS', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:44,396 Logging:
+2024-03-27 15:16:44,396 
+Holdin pairs stored in local drive:('AMAT', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:44,396 Logging:
+2024-03-27 15:16:44,396 
+Holdin pairs stored in local drive:('GFS', 'HON'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:44,397 Logging:
+2024-03-27 15:16:44,397 
+Holdin pairs stored in local drive:('GFS', 'VRTX'). 
+ All holding in IB: ['GFS']
+2024-03-27 15:16:44,397 Disconnecting from 127.0.0.1:4001, 1.62 kB sent in 20 messages, 60.0 kB received in 865 messages, session time 1.05 ks.
+2024-03-27 15:16:44,397 Disconnecting

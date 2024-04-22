@@ -50,7 +50,7 @@ def send_email_pdf_figs(message):
 
 
 def changing_pairs_dict(first,second,df):
-  if df.numUnits[-1]!=df.numUnits[-2]:
+  if df.numUnits[-1]!=df.numUnits[-2] or df.numUnits[-1] == 0:
     temp_dict = {'first_stock':first,
                 'second_stock':second,
                 'from_date':'%s-%s-%s'%(df.index[-2].year,df.index[-2].month,df.index[-2].day),

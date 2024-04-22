@@ -1,0 +1,9 @@
+2024-03-25 18:44:45,172 Logging:
+2024-03-25 18:44:45,172 
+Short GFS: 135 * 9 ; Long LULU: 15
+2024-03-25 18:44:45,188 Logging:
+2024-03-25 18:44:45,188 
+Holdin pairs stored in local drive:('GFS', 'LULU'). 
+ All holding in IB: ['AMD', 'NXPI', 'ABNB', 'DASH']
+2024-03-25 18:44:45,188 Disconnecting from 127.0.0.1:4002, 619 B sent in 12 messages, 33.5 kB received in 612 messages, session time 561 s.
+2024-03-25 18:44:45,189 Disconnecting
